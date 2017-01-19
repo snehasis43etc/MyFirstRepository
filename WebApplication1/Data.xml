@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Home>
+  <Menu text="Books" url="" >
+    <SubMenu text="Asp.Net" url=""></SubMenu>
+    <SubMenu text="Ajax" url="MenubarExample.aspx"></SubMenu>
+    <SubMenu text="MS SQL Server 2005" url="MenubarExample.aspx"></SubMenu>
+    <SubMenu text="JavaScript" url="MenubarExample.aspx"></SubMenu>
+  </Menu>
+  <Menu text="Electronics"  url="MenubarExample.aspx">
+    <SubMenu text="Camera" url="MenubarExample.aspx">
+      <SubMenu text="Digital" url="MenubarExample.aspx">
+        <SubMenu text="Canon" url="MenubarExample.aspx"></SubMenu>
+        <SubMenu text="Kodak" url="MenubarExample.aspx"></SubMenu>
+        <SubMenu text="Sony" url="MenubarExample.aspx"></SubMenu>
+        <SubMenu text="Casio" url="MenubarExample.aspx"></SubMenu>
+        <SubMenu text="Fuji" url="MenubarExample.aspx"></SubMenu>
+      </SubMenu>
+      <SubMenu text="Film Camera" url="MenubarExample.aspx"></SubMenu>
+    </SubMenu>
+    <SubMenu text="DVDs" url="MenubarExample.aspx">
+      <SubMenu text="Comedy" url="MenubarExample.aspx">
+        <SubMenu text="English" url="MenubarExample.aspx"></SubMenu>
+        <SubMenu text="French" url="MenubarExample.aspx"></SubMenu>
+        <SubMenu text="German" url="MenubarExample.aspx"></SubMenu>
+        <SubMenu text="Spanish" url="MenubarExample.aspx"></SubMenu>
+      </SubMenu>
+      <SubMenu text="Kids Movies" url="MenubarExample.aspx"></SubMenu>
+      <SubMenu text="Romance Movies" url="MenubarExample.aspx"></SubMenu>
+      <SubMenu text="Action Movies" url="MenubarExample.aspx"></SubMenu>
+    </SubMenu>
+  </Menu>
+  <Menu text="Contact Us" url="MenubarExample.aspx"></Menu>
+</Home>
