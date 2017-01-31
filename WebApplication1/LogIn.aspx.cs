@@ -20,11 +20,16 @@ namespace WebApplication1
             if ((TextBox1.Text == "hi") &&
             (TextBox2.Text == "hi"))
             {
-                FormsAuthentication.SetAuthCookie(TextBox1.Text, false);
-
-                FormsAuthentication.RedirectFromLoginPage
-                (TextBox1.Text, Persist.Checked);
-                 //  Response.Redirect("Home.aspx", false);
+                if (Request.QueryString["ReturnURL"] != null)
+                {
+                    FormsAuthentication.RedirectFromLoginPage
+                        (TextBox1.Text, Persist.Checked);
+                }
+                else
+                {
+                    FormsAuthentication.SetAuthCookie(TextBox1.Text, Persist.Checked);
+                    Response.Redirect("Home.aspx", false);
+                }
             }
             else
             {
