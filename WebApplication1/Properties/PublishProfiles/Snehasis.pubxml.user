@@ -11,7 +11,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/WebApplication1.dll">
-      <publishTime>11/29/2016 15:33:31</publishTime>
+      <publishTime>01/25/2017 13:31:40</publishTime>
+    </File>
+    <File Include="Dashboard.aspx">
+      <publishTime>12/07/2016 11:57:23</publishTime>
+    </File>
+    <File Include="Data.xml">
+      <publishTime>01/19/2017 15:41:26</publishTime>
     </File>
     <File Include="Home.aspx">
       <publishTime>11/29/2016 15:40:14</publishTime>
@@ -22,8 +28,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="LogIn.aspx">
       <publishTime>11/29/2016 15:40:17</publishTime>
     </File>
+    <File Include="MenubarExample.aspx">
+      <publishTime>01/19/2017 15:40:13</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>11/29/2016 15:46:56</publishTime>
+      <publishTime>01/25/2017 13:31:41</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<User>
+  <User>
+    <EmpId>1</EmpId>
+    <email>Sam@gmail.com</email>
+    <Role>Admin</Role>
+    </User>
+
+  <User>
+    <EmpId>2</EmpId>
+    <email>Snehasis@gmail.com</email>
+    <Role>User</Role>
+  </User>
+</User>

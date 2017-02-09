@@ -8,17 +8,17 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
-    public partial class Home : System.Web.UI.Page
+    public partial class Home : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             //string r = Context.Response.Cookies.ToString();
             //string rq = Context.Request.Cookies.ToString();
 
-            Response.Cache.SetCacheability(HttpCacheability.NoCache);
-            Response.Cache.SetExpires(DateTime.Now.AddDays(-1));
-            Response.Cache.SetNoStore();
-            Response.AppendHeader("Pragma", "no-cache");
+            //Response.Cache.SetCacheability(HttpCacheability.NoCache);
+            //Response.Cache.SetExpires(DateTime.Now.AddDays(-1));
+            //Response.Cache.SetNoStore();
+            //Response.AppendHeader("Pragma", "no-cache");
         }
 
         protected void Button1_Click(object sender, EventArgs e)
